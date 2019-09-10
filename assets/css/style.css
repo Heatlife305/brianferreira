@@ -1,6 +1,14 @@
 body {
-  background-color: #0039a9;
-  
+  background-color: #ffc0cb;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+svg {
+  margin-left: 20%;
 }
 
 ul {
@@ -43,8 +51,16 @@ a:hover {
   color: orange;
 }
 
+.about {
+  background-image: url("./../images/miamiskyline.jpg");
+  background-size: cover;
+  margin-top: 40px;
+  color: white;
+  padding: 20rem;
+}
+
 .languages {
-  border: 1px solid black;
+  background-color: white;
   margin-top: 100px;
   margin-bottom: 20px;
 }
@@ -57,11 +73,7 @@ svg {
   max-width: 10%;
 }
 
-.about {
-  border: 1px solid black;
-  margin-top: 100px;
-  padding: 40px;
-}
+
 
 .portfolio {
   padding: 40px;
