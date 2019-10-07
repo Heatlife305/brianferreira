@@ -36,7 +36,7 @@ svg {
  float: left;
 }
 
-li a {
+.navlink {
   display: block;
   color: white;
   text-align: center;
@@ -109,6 +109,8 @@ svg {
   background-color: transparent;
   width: 350px;
   height: 300px;
+  float: left;
+  margin-left: 90px;
 }
 
 .flip-card-inner {
@@ -139,6 +141,12 @@ svg {
   background-color: #7d97d0;
   color: white;
   transform: rotateY(180deg);
+  font-family: 'Magra', 'sans-serif';
+}
+
+#film-finder .flip-card-back {
+  background-color: white;
+  color: #7d97d0;
 }
 
 .contact {
@@ -152,7 +160,7 @@ svg {
 }
 
 #email-button:hover{
- font-weight: bolder;
+ border: 1px solid #7d97d0;
 }
 
 #email-button {
