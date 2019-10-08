@@ -155,26 +155,31 @@ svg {
   font-family: 'Magra', 'sans-serif';
 }
 
-#email-button {
-  background-color: #7d97d0;
+#email-logo {
+  max-width: 2%;
 }
 
-#email-button:hover{
- border: 1px solid #7d97d0;
+#email-logo:hover{
+ max-width: 2.25%;
 }
 
-#email-button {
-  color: white;
-  padding: 8px;
-}
+
 
 .contact h3 {
   color: #7d97d0;
   text-shadow: 1px 1px black;
 }
 
+#github-logo:hover {
+  width: 30px;
+}
+
 #linkedin-logo {
   max-width: 2.75%;
+}
+
+#linkedin-logo:hover {
+  width: 33px;
 }
 
 footer {
