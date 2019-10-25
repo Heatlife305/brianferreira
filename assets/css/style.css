@@ -163,8 +163,6 @@ svg {
  max-width: 2.25%;
 }
 
-
-
 .contact h3 {
   color: #7d97d0;
   text-shadow: 1px 1px black;
@@ -188,4 +186,33 @@ footer {
   text-align: center;
   color: white;
   font-family: 'Magra', 'sans-serif';
+}
+
+/* For phones */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    overflow: hidden;
+    background-color: #7d97d0;
+    position: relative;
+  }
+
+  .navbar .navlink {
+    display: none;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
